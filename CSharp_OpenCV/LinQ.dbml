@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OpenCV_Database" Class="LinQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-QUOOHBC;Initial Catalog=OpenCV_Database;User ID=sa" SettingsObjectName="CSharp_OpenCV.Properties.Settings" SettingsPropertyName="OpenCV_DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MIA" Member="MIAs">
+    <Type Name="MIA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Image_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Sekil_Sayisi" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Renk_Sayisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Resim" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Tarih" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinQ">
+  <DataContextMoniker Name="/LinQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="10ee4fbe-4bfd-49cb-91de-eebda902e2a9" absoluteBounds="0.5, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LinQDataContext/MIA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95346f60-390e-4e29-b040-a49c3b8bbc37" absoluteBounds="0.51499999999999968, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
